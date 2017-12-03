@@ -1,0 +1,12 @@
+spring:
+  profiles: dev
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql:///babasport
+      username: root
+      password: root
+
+server:
+  port: 8080
+  context-path: /demodev
+

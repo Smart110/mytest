@@ -1,0 +1,12 @@
+spring:
+  profiles: test
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql:///test
+      username: root
+      password: root
+
+server:
+  port: 8081
+  context-path: /demotest
+
